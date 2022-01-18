@@ -6,7 +6,7 @@ import * as S from './styled'
 
     return (
         <S.Container>
-            <h1>Pagina principal</h1>
+            <h1>EcoLog</h1>
         </S.Container>
     )
 }
