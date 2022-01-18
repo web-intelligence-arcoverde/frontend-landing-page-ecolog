@@ -1,14 +1,16 @@
-import react from "react";
-import * as S from './styled'
+import CardSlide from '../../components/molecule/CardSlide'
+import Header from '../../components/molecule/Header'
+import Slider from '../../components/molecule/Slider'
 
+import { Container } from './styled'
 
- const Home = () => {
-
-    return (
-        <S.Container>
-            <h1>EcoLog</h1>
-        </S.Container>
-    )
+const Home = () => {
+  return (
+    <Container>
+      <Header />
+      <Slider />
+    </Container>
+  )
 }
 
-export default Home;
+export default Home
