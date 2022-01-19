@@ -12,5 +12,8 @@ export const Navigation = styled.ul`
     :hover {
       color: ${COLORS.green};
     }
+    @media (max-width: 769px) {
+      display: none;
+    }
   }
 `

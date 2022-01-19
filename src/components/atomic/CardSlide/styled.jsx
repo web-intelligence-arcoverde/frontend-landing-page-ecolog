@@ -11,7 +11,7 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   color: ${COLORS.green};
-  height: 85vh;
+  height: 90vh;
 
   h1 {
     margin-bottom: 30px;
@@ -22,5 +22,23 @@ export const Container = styled.div`
   }
   img {
     width: 30%;
+  }
+  @media (max-width: 769px) {
+    flex-direction: column;
+    text-align: center;
+    height: 95vh;
+    margin-top: -40px;
+
+    h1 {
+      font-size: 25px;
+    }
+    h2 {
+      width: 25ch;
+      font-size: 20px;
+    }
+    img {
+      width: 70%;
+      margin-bottom: 100px;
+    }
   }
 `

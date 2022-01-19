@@ -1,6 +1,6 @@
 import { Zoom } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
-import CardSlide from '../CardSlide'
+import CardSlide from '../../atomic/CardSlide'
 import Img1 from '../../../assets/icons/photo1.svg'
 import Img2 from '../../../assets/icons/photo2.svg'
 import Img3 from '../../../assets/icons/photo3.svg'

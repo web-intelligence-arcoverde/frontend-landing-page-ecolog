@@ -5,8 +5,10 @@ export const Container = styled.div`
   justify-content: space-around;
   align-items: center;
   margin: 30px;
+  align-items: center;
 
   img {
-    width: 50px;
+    width: 38px;
+    margin-right: 125px;
   }
 `
