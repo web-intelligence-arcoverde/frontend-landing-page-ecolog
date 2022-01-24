@@ -1,6 +1,5 @@
 import Header from '../../components/molecule/Header'
 import Slider from '../../components/molecule/Slider'
-import Guide from '../../components/molecule/Guide'
 import { Container } from './styled'
 
 const Home = () => {
@@ -8,7 +7,6 @@ const Home = () => {
     <Container>
       <Header />
       <Slider />
-      <Guide />
     </Container>
   )
 }

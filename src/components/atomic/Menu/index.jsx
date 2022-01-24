@@ -15,7 +15,9 @@ const Menu = () => {
           <a href="#">Pontos de Coleta</a>
         </li>
         <li>
-          <a href="#">Contato</a>
+          <a href="#" style={{ margin: '0px' }}>
+            Contato
+          </a>
         </li>
       </Navigation>
     </div>

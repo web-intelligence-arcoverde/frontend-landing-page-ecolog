@@ -6,11 +6,12 @@ export const Navigation = styled.ul`
 
   a {
     margin: 0 30px;
-    color: ${COLORS.gray};
+    color: ${COLORS.primarySilver};
     font-size: 18px;
     transition: 0.7s;
+
     :hover {
-      color: ${COLORS.green};
+      color: ${COLORS.priamryGreen};
     }
     @media (max-width: 769px) {
       display: none;

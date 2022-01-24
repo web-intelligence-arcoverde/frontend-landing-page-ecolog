@@ -1,10 +1,14 @@
 export const COLORS = {
-  black: '#1e1f20',
-  white: '#ffffff',
-  gray: '#6a6a6a',
-  green: '#34cb79',
-  silver: '#aaaeb3',
+  primaryBlack: '#1e1f20',
+  primaryWhite: '#ffffff',
+
+  priamryGreen: '#34cb79',
+
+  primarySilver: '#aaaeb3',
+
+  primaryGray: '#6a6a6a',
   secondaryGray: '#f0f0f5',
-  threeGreen: '#99d7d2',
+  thirdGray: '#fcfcff',
+
   error: '#e15848',
 }
